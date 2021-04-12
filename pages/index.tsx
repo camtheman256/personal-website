@@ -11,12 +11,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to whatever the hell this is!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          I just wanted to put something here so it wouldn't be the default template. More will come soon! :D
+          <br />
+          <span style={{float: 'right'}}>♥, Cameron K</span>
         </p>
 
         <div className={styles.grid}>
