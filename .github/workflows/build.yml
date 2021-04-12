@@ -1,0 +1,27 @@
+name: build
+
+on:
+  push:
+    branches-ignore: [ master ]
+  pull-request:
+    branches: [ master ]
+  
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ✅ Checkout code
+        uses: actions/checkout@v2
+      
+      - name: 🚧 Setup Node
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: '12.x'
+
+      - name: 🛍 Get Packages
+        run: yarn install --frozen-lockfile
+      - name: 🛠 Build Site
+        run: npm run build
