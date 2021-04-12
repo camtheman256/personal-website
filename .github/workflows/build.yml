@@ -2,9 +2,9 @@ name: build
 
 on:
   push:
-    branches-ignore: [ master ]
+    branches-ignore: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   
   workflow_dispatch:
 
