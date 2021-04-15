@@ -1,4 +1,4 @@
-import { AppProps } from 'next/dist/next-server/lib/router/router'
+import { AppProps } from 'next/app'
 import { ThemeProvider } from 'theme-ui'
 import theme from '../styles/theme'
 
