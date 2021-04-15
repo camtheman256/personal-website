@@ -1,6 +1,6 @@
-import { Box, Link } from 'theme-ui'
+import { Avatar, Box, Container, Flex, Heading, Link } from 'theme-ui'
 
-function Header() {
+function HeadBar() {
   const upTo = [
     'making a website',
     'up too late again',
@@ -15,16 +15,32 @@ function Header() {
 
   return (
     <header>
-      <Box sx={{p: 3, color: 'muted'}}>Cameron Kleiman is {upTo[Math.floor(Math.random()*upTo.length)]}</Box>
+      <Box sx={{p: 3, color: 'muted', fontSize: 'body'}}>Cameron Kleiman is {upTo[Math.floor(Math.random()*upTo.length)]}</Box>
     </header>
+  )
+}
+
+function Header() {
+  return (<>
+    <Flex sx={{alignItems: 'center', flexDirection: ['column', 'row']}} mb={4}>
+      <Avatar src="profile.jpg" mr={[0, 4]} mb={[3,0]} sx={{width: [125, 125, 150]}} />
+      <Box sx={{textAlign: ['center', 'left']}}>
+        <Heading sx={{fontSize: ['subheading', 'display-2', 'display']}}>Cameron Kleiman</Heading>
+        <Heading sx={{color: 'accent'}}>computer science &amp; planning student at mit</Heading>
+      </Box>
+    </Flex>
+    </>
   )
 }
 
 export default function Layout({ children }) {
   return (
     <>
-      <Header />
-      {children}
+      <HeadBar />
+      <Container p={[3, 4]}>
+        <Header />
+        {children}
+      </Container>
     </>
   )
 }
