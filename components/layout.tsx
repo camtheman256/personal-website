@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Avatar, Box, Container, Flex, Heading, Link } from 'theme-ui'
 
 function HeadBar() {

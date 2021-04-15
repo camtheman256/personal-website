@@ -8,6 +8,7 @@ const theme: Theme = {
         //TODO: make light mode color scheme
         primary: 'red',
         secondary: '',
+        accent: '',
         muted: '#444',
         modes: {
             dark: {
