@@ -5,10 +5,9 @@ const theme: Theme = {
     colors: {
         text: '#000',
         background: '#fff',
-        //TODO: make light mode color scheme
-        primary: 'red',
-        secondary: '',
-        accent: '',
+        primary: '#BA160C',         // international orange engineering
+        secondary: '#191970',       // midnight blue
+        accent: '#B14AED',          // electric purple
         muted: '#444',
         modes: {
             dark: {
@@ -35,7 +34,7 @@ const theme: Theme = {
         display: 72,
     },
     breakpoints: [
-        '40em', '54em', '62em'
+        '42em', '60em'
     ],
     styles: {
         root: {
@@ -45,7 +44,7 @@ const theme: Theme = {
     },
     layout: {
         container: {
-            maxWidth: [ '40em', '44em', '54em' ] ,
+            maxWidth: [ '40em', '46em', '54em' ] ,
         }
     },
 }
