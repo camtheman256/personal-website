@@ -1,5 +1,16 @@
 /** @jsxImportSource theme-ui */
-import { Avatar, Box, Container, Flex, Heading, Link } from 'theme-ui'
+import { Avatar, Box, Container, Flex, Heading, Link, useThemeUI } from 'theme-ui'
+
+function ColorBar() {
+  const { theme } = useThemeUI();
+
+  return (
+    <Box sx={{
+      background: `linear-gradient(to right, ${theme.colors.secondary}, ${theme.colors.accent})`,
+      height: 10,
+    }} />
+  )
+}
 
 function HeadBar() {
   const upTo = [
@@ -16,6 +27,7 @@ function HeadBar() {
 
   return (
     <header>
+      <ColorBar />
       <Box sx={{p: 3, color: 'muted', fontSize: 'body'}}>Cameron Kleiman is {upTo[Math.floor(Math.random()*upTo.length)]}</Box>
     </header>
   )
