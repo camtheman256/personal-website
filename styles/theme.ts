@@ -9,6 +9,7 @@ const theme: Theme = {
         secondary: '#191970',       // midnight blue
         accent: '#B14AED',          // electric purple
         muted: '#444',
+        "extra-muted": "#888",
         modes: {
             dark: {
                 text: '#fff',
