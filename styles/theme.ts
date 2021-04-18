@@ -41,10 +41,21 @@ const theme: Theme = {
             fontFamily: 'body',
             fontWeight: 'body'
         },
+        li: {
+            marginBottom: 2
+        },
+        a: {
+            fontWeight: '700',
+            color: 'inherit',
+            textDecoration: 'none',
+            '&:hover': {
+                color: 'primary'
+            }
+        }
     },
     layout: {
         container: {
-            maxWidth: [ '40em', '46em', '54em' ] ,
+            maxWidth: [ '40em', '46em', '64em' ] ,
         }
     },
 }
