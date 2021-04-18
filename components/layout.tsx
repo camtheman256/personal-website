@@ -1,6 +1,8 @@
 /** @jsxImportSource theme-ui */
 import { Avatar, Box, Container, Flex, Heading, Link, useThemeUI } from 'theme-ui'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
+import siteConfig from '../site.config'
 
 function ColorBar() {
   const { theme } = useThemeUI();
@@ -49,6 +51,7 @@ function Header() {
 }
 
 export default function Layout({ children, meta }) {
+  const router = useRouter()
 
   return (
     <>
@@ -56,7 +59,8 @@ export default function Layout({ children, meta }) {
         <title>{meta.title} | Cameron Kleiman</title>
         <meta property="og:title" content={meta.title} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={meta.image || "/profile.jpg"} />
+        <meta property="og:image" content={siteConfig.baseURL + (meta.image || "/profile.jpg")} />
+        <meta property="og:url" content={siteConfig.baseURL + router.asPath} />
         {meta.description && <meta property="og:description" content={meta.description} />}
       </Head>
       <HeadBar />
