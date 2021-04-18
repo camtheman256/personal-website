@@ -23,6 +23,7 @@ function HeadBar() {
     'walking around Boston',
     <>riding <Link href="https://en.wikipedia.org/wiki/MBTA_subway" target="_blank" rel="noopener">the T</Link></>,
     'identifying fonts',
+    'blundering chess pieces',
   ]
 
   return (
