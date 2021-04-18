@@ -1,6 +1,44 @@
 import Layout from '../components/layout'
+import SlideTip from '../components/slidetip'
+import { Link } from 'theme-ui'
 
-# Homepage
+export const meta = {
+    title: 'Homepage',
+    description: "Hi! I'm Cameron Kleiman, a computer science & urban planning student at MIT, and this is my website!"
+}
 
+## 🙋🏼‍♂️ Me
 
-export default ({ children }) => <Layout>{children}</Layout>
+- mit '24, majoring in <SlideTip title="(computer science)">6-3</SlideTip> and <SlideTip title="(urban planning)">11</SlideTip>
+- i run <Link href="https://hwtaylor.scripts.mit.edu/" target="_blank">varsity track and xc</Link> at mit
+- <Link href="https://dormcon.mit.edu" target="_blank">dormcon</Link> tech chair
+- <Link href="https://bc.mit.edu" target="_blank">burton-conner residence</Link> webmaster
+
+## 👇🏼 Now
+
+- 🏠 on a gap year at home in austin, tx
+- 💼 working at dell in devops for ml
+- 🎮 playing beat saber, teaching my siblings to code, and being <Link href="https://lichess.org/@/cmk256" target="_blank">generally trash at chess</Link>
+
+## ⏭ Next
+
+- 🌞 working summer '21 at google as a swe intern
+- 🏫 resuming sophomore year in fall '21 at mit
+
+## 🛠️ Projects
+
+- <Link href="https://schedules.lasa2019.com" target="_blank">lasa schedules</Link>,&nbsp;
+  <Link href="https://schedules-editor.lasa2019.com" target="_blank">the editor</Link>, and&nbsp;
+  <Link href="https://chrome.google.com/webstore/detail/lasa-schedules/glomdolocjjghhaiebanmhbnnobgekgj" target="_blank">the chrome extension</Link>
+- <Link href="https://github.com/camtheman256/camtheman256.github.io" target="_blank">this website</Link>
+
+## 👋🏼 You might know me from&hellip;
+- <Link href="https://howtointernet.xyz" target="_blank">how to internet</Link>, a two-hour class i taught to middle and high schoolers as part of mit esp's fall 2020 splash
+- <Link href="https://www.notion.so/SCUFFY-2020-7ca7a73c7ecd4e1e8c9a14aec02cc2f3" target="_blank">scuffy 2020</Link>, a site i helped create to virtually connect mit's prefrosh and help them explore dorm communities
+- <Link href="https://julia.party" target="_blank">introduction to julia</Link>, a six-part class i taught to high schoolers online as part of mit esp's summer 2020 hssp
+- <Link href="https://senseable.mit.edu" target="_blank">senseable city lab</Link>, where i <SlideTip title="mit's undergraduate research opportunities program">uroped</SlideTip> in spring 2020
+- <Link href="https://www.lasahighschool.org" target="_blank">lasa high school</Link> class of 2019
+- <Link href="https://www.macromoltek.com" target="_blank">macromoltek</Link>, where i worked as a biotech research intern
+- <Link href="https://cetecerp.com" target="_blank">cetec erp</Link>, where i worked as a summer intern
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>
