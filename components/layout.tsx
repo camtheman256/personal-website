@@ -1,5 +1,6 @@
 /** @jsxImportSource theme-ui */
 import { Avatar, Box, Container, Flex, Heading, Link, useThemeUI } from 'theme-ui'
+import Head from 'next/head'
 
 function ColorBar() {
   const { theme } = useThemeUI();
@@ -47,9 +48,17 @@ function Header() {
   )
 }
 
-export default function Layout({ children }) {
+export default function Layout({ children, meta }) {
+
   return (
     <>
+      <Head>
+        <title>{meta.title} | Cameron Kleiman</title>
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={meta.image || "/profile.jpg"} />
+        {meta.description && <meta property="og:description" content={meta.description} />}
+      </Head>
       <HeadBar />
       <Container p={[3, 4]}>
         <Header />
