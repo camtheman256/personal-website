@@ -53,11 +53,13 @@ function Header() {
 export default function Layout({ children, meta }) {
   const router = useRouter()
 
+  const pageTitle = meta.title + " | Cameron Kleiman"
+
   return (
     <>
       <Head>
-        <title>{meta.title} | Cameron Kleiman</title>
-        <meta property="og:title" content={meta.title} />
+        <title>{pageTitle}</title>
+        <meta property="og:title" content={pageTitle} />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={siteConfig.baseURL + (meta.image || "/profile.jpg")} />
         <meta property="og:url" content={siteConfig.baseURL + router.asPath} />
