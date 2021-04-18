@@ -63,7 +63,7 @@ export default function Layout({ children, meta }) {
         <meta property="og:type" content="website" />
         <meta property="og:image" content={siteConfig.baseURL + (meta.image || "/profile.jpg")} />
         <meta property="og:url" content={siteConfig.baseURL + router.asPath} />
-        {meta.description && <meta property="og:description" content={meta.description} />}
+        {meta.description && <meta name="description" property="og:description" content={meta.description} />}
       </Head>
       <HeadBar />
       <Container p={[3, 4]}>
