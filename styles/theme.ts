@@ -52,6 +52,12 @@ const theme: Theme = {
             '&:hover': {
                 color: 'primary'
             }
+        },
+        h2: {
+            textDecorationLine: 'underline',
+            textDecorationColor: 'var(--theme-ui-colors-accent)',  // accent won't work so this will have to do
+            textDecorationThickness: 1,
+            textUnderlineOffset: 12,
         }
     },
     layout: {
