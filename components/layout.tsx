@@ -3,14 +3,26 @@ import { Avatar, Box, Container, Flex, Heading, Link, useThemeUI } from 'theme-u
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import siteConfig from '../site.config'
+import { keyframes } from '@emotion/react'
 
 function ColorBar() {
   const { theme } = useThemeUI();
+  
+  const animateBar = keyframes({
+    from: {
+      backgroundPositionX: '0%'
+    },
+    to: {
+      backgroundPositionX: '200%'
+    },
+  })
 
   return (
     <Box sx={{
-      background: `linear-gradient(to right, ${theme.colors.secondary}, ${theme.colors.accent})`,
+      backgroundImage: `linear-gradient(to right, ${theme.colors.secondary}, ${theme.colors.accent}, ${theme.colors.secondary})`,
       height: 10,
+      backgroundSize: '200% 100%',
+      animation: `${animateBar} 10s linear infinite`,
     }} />
   )
 }
