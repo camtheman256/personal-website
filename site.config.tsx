@@ -1,6 +1,7 @@
 import { Link } from 'theme-ui'
 
 const siteConfig = {
+    /** hacky way of doing baseURL */
     baseURL: "https://new.camk.co",
     /** tagline that goes under my name in Layout */
     tagline: "computer science & planning student at mit",
