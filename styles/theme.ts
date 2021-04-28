@@ -55,7 +55,7 @@ const theme: Theme = {
         },
         h2: {
             textDecorationLine: 'underline',
-            textDecorationColor: 'var(--theme-ui-colors-accent)',  // accent won't work so this will have to do
+            textDecorationColor: 'accent',
             textDecorationThickness: 1,
             textUnderlineOffset: 12,
         }
