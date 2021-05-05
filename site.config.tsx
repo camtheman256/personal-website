@@ -19,6 +19,9 @@ const siteConfig = {
         'blundering chess pieces',
         'fully Covid-19 vaccinated',
         'deep in a codebase',
+        'writing TypeScript',
+        'down in the tunnels',
+        'playing wiffle ball in Lobby 7',
     ]
 }
 
