@@ -38,11 +38,11 @@ function HeadBar() {
 
 function Header() {
   return (<>
-    <Flex sx={{alignItems: 'center', flexDirection: ['column', 'row']}} mb={4}>
-      <Avatar src="profile.jpg" mr={[0, 4]} mb={[3,0]} sx={{width: [125, 125, 150]}} />
+    <Flex sx={{alignItems: 'center', flexDirection: ['column', 'row']}} mb={4} itemScope itemType="https://schema.org/Person">
+      <Avatar src="profile.jpg" mr={[0, 4]} mb={[3,0]} sx={{width: [125, 125, 150]}} itemProp="image" />
       <Box sx={{textAlign: ['center', 'left']}}>
-        <Heading sx={{fontSize: ['subheading', 'display-2', 'display']}}>Cameron Kleiman</Heading>
-        <Heading sx={{color: 'accent'}}>{siteConfig.tagline}</Heading>
+        <Heading sx={{fontSize: ['subheading', 'display-2', 'display']}} itemProp="name">Cameron Kleiman</Heading>
+        <Heading sx={{color: 'accent'}} itemProp="description">{siteConfig.tagline}</Heading>
       </Box>
     </Flex>
     </>
