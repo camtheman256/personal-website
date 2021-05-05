@@ -2,7 +2,7 @@ import { Link } from 'theme-ui'
 
 const siteConfig = {
     /** hacky way of doing baseURL */
-    baseURL: "https://new.camk.co",
+    baseURL: "https://camk.co",
     /** tagline that goes under my name in Layout */
     tagline: "computer science & planning student at mit",
     /** array of options for randomly generated string at the top of Layout */
@@ -18,6 +18,7 @@ const siteConfig = {
         'identifying fonts',
         'blundering chess pieces',
         'fully Covid-19 vaccinated',
+        'deep in a codebase',
     ]
 }
 
