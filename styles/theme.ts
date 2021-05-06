@@ -1,7 +1,9 @@
 import { Theme } from "@theme-ui/css";
 
 const theme: Theme = {
-    useLocalStorage: false,
+    config: {
+        useLocalStorage: false,
+    },
     colors: {
         text: '#000',
         background: '#fff',
