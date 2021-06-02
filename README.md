@@ -2,7 +2,7 @@
 
 Personal website rewrite project, Spring 2021. Started mostly because I got super into React and theming and my old website is a wall of text. The goal of this project is to streamline my web design and focus my attention towards the things I care about: theming (Theme UI) and content (MDX).
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This project uses [Theme UI](https://theme-ui.com/) for styling and [@next/mdx](https://www.npmjs.com/package/@next/mdx) to render my Markdown pages. GitHub Actions (in `.github/worklflows`) handle all of the work of pushing to the live site.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This project uses [Theme UI](https://theme-ui.com/) for styling and [@next/mdx](https://www.npmjs.com/package/@next/mdx) to render my Markdown pages. GitHub Actions (in `.github/workflows`) handle all of the work of pushing to the live site.
 
 ## Getting Started
 
