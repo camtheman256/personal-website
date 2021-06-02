@@ -22,6 +22,7 @@ const siteConfig = {
         'writing TypeScript',
         'down in the tunnels',
         'playing wiffle ball in Lobby 7',
+        'crawling the web',
     ]
 }
 
