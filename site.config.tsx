@@ -23,6 +23,7 @@ const siteConfig = {
         'down in the tunnels',
         'playing wiffle ball in Lobby 7',
         'crawling the web',
+        'making a hit meme',
     ]
 }
 
