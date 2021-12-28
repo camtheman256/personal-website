@@ -644,12 +644,12 @@
     "@theme-ui/css" "0.12.1"
     deepmerge "^4.2.2"
 
-"@theme-ui/color@^0.12.1":
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.12.1.tgz#c4af16448ada9cb1e0854ce332e91ae05d6764cf"
-  integrity sha512-2TyuydLabp3VQaDz/U7PsWHAEuOkKV4BMiDZ+C4Lu3pgX7tb9418JrbkakEFiAyWzsE872VkuUAIFQzb+Rw21g==
+"@theme-ui/color@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.13.0.tgz#b94d7695157f96e42aa5ad8a2798bccb02acaaa7"
+  integrity sha512-RxYKMuQt84+WQ9JUrr9GjlxnBVwOjof/c13AAxN0aKLvTdUqKmfH0Gm0nsQCbQBBEz1ZrvOTt6DuyeAige1k9g==
   dependencies:
-    "@theme-ui/css" "0.12.1"
+    "@theme-ui/css" "0.13.0"
     polished "^4.0.5"
 
 "@theme-ui/components@0.12.1":
@@ -681,6 +681,13 @@
   integrity sha512-/9mvYEjPubtk7u+2tx3wTVq4kTAUNi8hMpisHBJ9em7nJ+b0sdRhPp/RPFVkUxP2Q9RdsTgvfGkrN73UBvVUAQ==
   dependencies:
     "@emotion/react" "^11.6.0"
+    csstype "^3.0.10"
+
+"@theme-ui/css@0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.13.0.tgz#c7ee0e748c12a347e930a934e561dd51457cecec"
+  integrity sha512-2vh2wggAmuaDhPTgBsMkBqEuaCaZWWzEJG6BMs9FfybHibQYi0MJyLHvi3D11goYH4R6ayynjKEtny/UFEOA9A==
+  dependencies:
     csstype "^3.0.10"
 
 "@theme-ui/mdx@0.12.1":
