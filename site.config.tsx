@@ -24,6 +24,9 @@ const siteConfig = {
         'playing wiffle ball in Lobby 7',
         'crawling the web',
         'making a hit meme',
+        'racing around the track',
+        'running in the rain',
+        'getting 8 hours of sleep',
     ]
 }
 
