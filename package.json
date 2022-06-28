@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.8.1",
+    "@emotion/styled": "^11.9.3",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^12.1.6",
     "@theme-ui/color": "^0.14.6",
