@@ -15,8 +15,11 @@ const siteConfig = {
         'reading transit Wikipedia',
         'walking around Boston',
         <>riding <Link href="https://en.wikipedia.org/wiki/MBTA_subway" target="_blank">the T</Link></>,
+        'riding the subway',
+        'riding a Citibike',
+        'riding a Bluebike',
+        'evangelizing about bikeshare',
         'identifying fonts',
-        'blundering chess pieces',
         'fully Covid-19 vaccinated',
         'deep in a codebase',
         'writing TypeScript',
@@ -27,6 +30,11 @@ const siteConfig = {
         'racing around the track',
         'running in the rain',
         'getting 8 hours of sleep',
+        'advocating for high speed rail in America',
+        'adjusting his standing desk',
+        'wandering through the park',
+        'growing out his hair',
+        'distracted by transit',
     ]
 }
 
