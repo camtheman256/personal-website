@@ -28,17 +28,24 @@ function ColorBar() {
   )
 }
 
-function HeadBar() {
+function StatusBox() {
   const [upTo, setUpTo] = useState<string | JSX.Element>();
 
   useEffect(() => {
     setUpTo(siteConfig.upTo[Math.floor(Math.random()*siteConfig.upTo.length)])
   }, [])
 
+  if(!upTo) return null
+
+  return <Box sx={{p: 3, color: 'muted', fontSize: 'body'}}>Cameron Kleiman is {upTo}</Box>
+}
+
+function HeadBar() {
+
   return (
     <header>
       <ColorBar />
-      <Box sx={{p: 3, color: 'muted', fontSize: 'body'}}>Cameron Kleiman is {upTo}</Box>
+      <StatusBox />
     </header>
   )
 }
