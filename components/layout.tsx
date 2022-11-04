@@ -4,6 +4,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import siteConfig from '../site.config'
 import { keyframes } from '@emotion/react'
+import { StatusTag } from './headbar'
 
 function ColorBar() {
   const { theme } = useThemeUI();
@@ -31,7 +32,7 @@ function HeadBar() {
   return (
     <header>
       <ColorBar />
-      <Box sx={{p: 3, color: 'muted', fontSize: 'body'}}>Cameron Kleiman is {siteConfig.upTo[Math.floor(Math.random()*siteConfig.upTo.length)]}</Box>
+      <StatusTag />
     </header>
   )
 }
