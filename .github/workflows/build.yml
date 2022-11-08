@@ -22,4 +22,4 @@ jobs:
       - name: 🛍 Get Packages
         run: yarn install --frozen-lockfile
       - name: 🛠 Build Site
-        run: yarn run build
+        run: yarn build

@@ -20,8 +20,9 @@ jobs:
       - name: 🛍 Get Packages
         run: yarn install --frozen-lockfile
       - name: 🛠 Build Site
-        run: npm run build
-      
+        run: yarn build
+      - name: 🛠 Export Site
+        run: yarn export
       - name: 🌐 Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
