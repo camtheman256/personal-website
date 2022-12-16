@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.10.5",
     "@mdx-js/loader": "^2.2.1",
     "@mdx-js/react": "^2.2.1",
-    "@next/mdx": "^13.0.6",
+    "@next/mdx": "^13.0.7",
     "@theme-ui/color": "^0.15.4",
     "@theme-ui/mdx": "^0.15.4",
     "next": "13.0.6",
