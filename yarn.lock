@@ -418,12 +418,12 @@
     "@theme-ui/css" "^0.15.4"
     deepmerge "^4.2.2"
 
-"@theme-ui/color@^0.15.4":
-  version "0.15.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.15.4.tgz#49d3fb4bf5bf51ea1ae40c7f4f481d3b24f90b06"
-  integrity sha512-fLHUDuLhxpruBvIMJstvn109EqWRd0sWYrWNwDHKIWoncDm/iLlmVtOtNQO23TwDk/LgAYJRqUG3sGYaqIy49g==
+"@theme-ui/color@^0.15.5":
+  version "0.15.5"
+  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.15.5.tgz#6ebedb6236ff5d77c54ef670c310bdda78277f75"
+  integrity sha512-OOGF+WGH+kZTEHV6s8xaVyrZWMJVhgJ9Snp/SS5zvxS3mKY4/DG8C/s4LPOldhgCCx5fwlWo1Jkc6mvBq6QAHw==
   dependencies:
-    "@theme-ui/css" "^0.15.4"
+    "@theme-ui/css" "^0.15.5"
     polished "^4.0.5"
 
 "@theme-ui/components@^0.15.4":
