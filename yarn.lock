@@ -218,10 +218,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.4.1.tgz#57322da2630b6bb6d7204577b0a18f6f9324db0c"
   integrity sha512-eD6WCBMFjLFooLM19SIhSkWBHtaFrZFfg2Cxnyl3vS3DAdFRfnx5TY2RxlkuKXdIRCC0ySbtK9JXXt8qLCqzZg==
 
-"@next/mdx@^13.4.0":
-  version "13.4.0"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-13.4.0.tgz#0909d31c832dc6fada1829acc198bf8080971945"
-  integrity sha512-/u3Pbh6EHZnhhyayufVFF1WHQxVAs/KhimSbEW803AFoswKICYlJPT0hYyk8zR8uM0KQQNMnnw97SqrhMd1wfg==
+"@next/mdx@^13.4.1":
+  version "13.4.1"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-13.4.1.tgz#34c752eda3155cb67e083df88b9c36e6c883f0b1"
+  integrity sha512-jYhj/23/zamwgaZhYHnLc6B6lM/YnTkW5g/L6AClkZ3/o/Kups0Jq5TdYRXQ85vpaGYCNTnLr4kxdtCNWxuYzA==
   dependencies:
     source-map "^0.7.0"
 
