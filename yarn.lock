@@ -412,6 +412,14 @@
     "@theme-ui/css" "^0.15.7"
     deepmerge "^4.2.2"
 
+"@theme-ui/core@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/core/-/core-0.16.0.tgz#184bcf4bf10e40336da52d2b430dc449f3cc4cc4"
+  integrity sha512-M2qkb3LsRXAjILjR4nFr7SpuVTM842WPEPnjTBg59obx5vPDFvormwL0ZaqvPjolu4qsJOjV1P7gMx9KgPE2qw==
+  dependencies:
+    "@theme-ui/css" "^0.16.0"
+    deepmerge "^4.2.2"
+
 "@theme-ui/css@^0.15.7":
   version "0.15.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.15.7.tgz#a17110fd3d506329e878172cb05088974c4616e3"
@@ -434,13 +442,13 @@
     "@theme-ui/core" "^0.15.7"
     "@theme-ui/css" "^0.15.7"
 
-"@theme-ui/mdx@^0.15.7":
-  version "0.15.7"
-  resolved "https://registry.yarnpkg.com/@theme-ui/mdx/-/mdx-0.15.7.tgz#518ba9c422f92d6325619b83a6908a068d48ab80"
-  integrity sha512-VAJMWvAmfR7bSLi/Z7Ncf8P5DaPGbY0x2RnUsiH18HctOKUX7FqiHnqrKO0+3a1ZHhhXJ6YjXbFGAYK8/lF/lw==
+"@theme-ui/mdx@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/mdx/-/mdx-0.16.0.tgz#bf2c4fe297109b1859e31dc3ec837c36a54197b8"
+  integrity sha512-pqUyTzAxAdw8/TOWnaW50yIOth5EU/01Bg5yO9ktgTFEWOUTVB9KxIWFHBq79AUFyMshfIuEa2RDRpnb6HwdoA==
   dependencies:
-    "@theme-ui/core" "^0.15.7"
-    "@theme-ui/css" "^0.15.7"
+    "@theme-ui/core" "^0.16.0"
+    "@theme-ui/css" "^0.16.0"
 
 "@theme-ui/theme-provider@^0.15.7":
   version "0.15.7"
