@@ -40,6 +40,7 @@ const siteConfig = {
         'growing out his hair',
         'distracted by transit',
         'looking at trams through the window',
+        'collecting transit farecards',
     ]
 }
 
