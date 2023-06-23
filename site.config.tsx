@@ -16,8 +16,12 @@ const siteConfig = {
         'walking around Boston',
         <>riding <Link href="https://en.wikipedia.org/wiki/MBTA_subway" target="_blank">the T</Link></>,
         'riding the subway',
+        <>riding <Link href="https://en.wikipedia.org/wiki/San_Francisco_Municipal_Railway" target="_blank">the Muni</Link></>,
+        'riding the BART',
         'riding a Citibike',
         'riding a Bluebike',
+        'riding Bay Wheels',
+        'on a bus',
         'evangelizing about bikeshare',
         'identifying fonts',
         'fully Covid-19 vaccinated',
@@ -35,6 +39,7 @@ const siteConfig = {
         'wandering through the park',
         'growing out his hair',
         'distracted by transit',
+        'looking at trams through the window',
     ]
 }
 
