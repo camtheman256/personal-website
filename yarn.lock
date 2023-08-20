@@ -405,7 +405,7 @@
     "@theme-ui/css" "^0.16.1"
     "@types/styled-system" "^5.1.13"
 
-"@theme-ui/core@^0.16.0", "@theme-ui/core@^0.16.1":
+"@theme-ui/core@^0.16.1":
   version "0.16.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/core/-/core-0.16.1.tgz#3a958523a468b9521fe740c2b3231a9d59efd44d"
   integrity sha512-9Z0Fn50zdIWre0Apz3ObwfHXZ/zjw7NUhgRrSLYn/gdkJSPZZ8fcaY7Q2rnjfcrMt9DRCg5CPfQGLJqL1NY8xw==
@@ -413,7 +413,7 @@
     "@theme-ui/css" "^0.16.1"
     deepmerge "^4.2.2"
 
-"@theme-ui/css@^0.16.0", "@theme-ui/css@^0.16.1":
+"@theme-ui/css@^0.16.1":
   version "0.16.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.16.1.tgz#9c7a4f0e75b18dae3a0bb6cc9e673a03e13eed0a"
   integrity sha512-8TO2DbiqPrRyTlGRIElDak/p0M4ykyd8LkeavyOF/sTE9s93AwyFcle6KYYMEULrJP49SyYiEvTif7J7Z50DhA==
@@ -428,13 +428,13 @@
     "@theme-ui/core" "^0.16.1"
     "@theme-ui/css" "^0.16.1"
 
-"@theme-ui/mdx@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@theme-ui/mdx/-/mdx-0.16.0.tgz#bf2c4fe297109b1859e31dc3ec837c36a54197b8"
-  integrity sha512-pqUyTzAxAdw8/TOWnaW50yIOth5EU/01Bg5yO9ktgTFEWOUTVB9KxIWFHBq79AUFyMshfIuEa2RDRpnb6HwdoA==
+"@theme-ui/mdx@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/mdx/-/mdx-0.16.1.tgz#071ec0d71c8193f44ab97ebca99ac303513da6d0"
+  integrity sha512-7XZQOSjvgo9rzfDi6D4rv7u7dSLHwBWDwcNQa9Qu65ftoTqYngEheMzB1koPueAc8PhRWsfHLOAfthPhJ3Slbg==
   dependencies:
-    "@theme-ui/core" "^0.16.0"
-    "@theme-ui/css" "^0.16.0"
+    "@theme-ui/core" "^0.16.1"
+    "@theme-ui/css" "^0.16.1"
 
 "@theme-ui/theme-provider@^0.16.1":
   version "0.16.1"
