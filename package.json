@@ -23,7 +23,7 @@
     "theme-ui": "^0.16.1"
   },
   "devDependencies": {
-    "@types/gtag.js": "^0.0.16",
+    "@types/gtag.js": "^0.0.17",
     "@types/node": "^20.8.4",
     "@types/react": "^18.2.29",
     "typescript": "^5.2.2"
