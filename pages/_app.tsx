@@ -3,7 +3,7 @@ import { useThemedStylesWithMdx } from "@theme-ui/mdx";
 import { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import { ThemeProvider } from "theme-ui";
+import { ThemeUIProvider } from "theme-ui";
 import { pageview } from "../lib/ga";
 import theme from "../styles/theme";
 
@@ -23,11 +23,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router.events]);
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeUIProvider theme={theme}>
       <MDXProvider components={componentsWithStyles}>
         <Component {...pageProps} />
       </MDXProvider>
-    </ThemeProvider>
+    </ThemeUIProvider>
   );
 }
 
