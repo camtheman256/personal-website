@@ -6,10 +6,13 @@ import { useEffect } from "react";
 import { ThemeUIProvider } from "theme-ui";
 import { pageview } from "../lib/ga";
 import theme from "../styles/theme";
+import ExternalLink from "../components/externallink";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
-  const componentsWithStyles = useThemedStylesWithMdx(useMDXComponents());
+  const componentsWithStyles = useThemedStylesWithMdx(
+    useMDXComponents({ a: ExternalLink })
+  );
 
   useEffect(() => {
     const handleRouteChange = (url) => {
