@@ -20,7 +20,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^5.0.1",
-    "theme-ui": "^0.16.1"
+    "theme-ui": "^0.16.2"
   },
   "devDependencies": {
     "@types/gtag.js": "^0.0.19",
