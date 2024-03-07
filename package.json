@@ -26,6 +26,6 @@
     "@types/gtag.js": "^0.0.19",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.63",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   }
 }
