@@ -4,7 +4,7 @@ const siteConfig = {
     /** hacky way of doing baseURL */
     baseURL: "https://camk.co",
     /** tagline that goes under my name in Layout */
-    tagline: "computer science & planning student at mit",
+    tagline: "software engineer at datadog",
     /** array of options for randomly generated string at the top of Layout */
     upTo: [
         'making a website',
