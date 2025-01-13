@@ -2,7 +2,7 @@
 import { keyframes } from "@emotion/react";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import {
   Avatar,
   Box,
@@ -38,7 +38,7 @@ function ColorBar() {
 }
 
 function StatusBox() {
-  const [upTo, setUpTo] = useState<string | JSX.Element>();
+  const [upTo, setUpTo] = useState<ReactNode>();
 
   useEffect(() => {
     setUpTo(
