@@ -360,10 +360,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-15.5.2.tgz#0c6b959313cd6e71afb69bf0deb417237f1d2f8a"
   integrity sha512-Qe06ew4zt12LeO6N7j8/nULSOe3fMXE4dM6xgpBQNvdzyK1sv5y4oAP3bq4LamrvGCZtmRYnW8URFCeX5nFgGg==
 
-"@next/mdx@^15.5.2":
-  version "15.5.2"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-15.5.2.tgz#ee451038673fa23006306e07bd2d9a0048a0a0ff"
-  integrity sha512-Lz9mdoKRfSNc7T1cSk3gzryhRcc7ErsiAWba1HBoInCX4ZpGUQXmiZLAAyrIgDl7oS/UHxsgKtk2qp/Df4gKBg==
+"@next/mdx@^15.5.3":
+  version "15.5.3"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-15.5.3.tgz#b93dd1d021a22e2dec5c0b22edddd90b79a8a2be"
+  integrity sha512-tpD3sdWfAiqjqD1WXL4ZEpxswXdbeoTQjlgvDzbQOxDr37qaAo9bFkpMVb3P3pgAJAQ9Q6w1Yql6YtOsmgZrzg==
   dependencies:
     source-map "^0.7.0"
 
