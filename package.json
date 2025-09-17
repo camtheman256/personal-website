@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/gtag.js": "^0.0.20",
-    "@types/node": "^24.4.0",
+    "@types/node": "^24.5.1",
     "@types/react": "^19.1.13",
     "typescript": "^5.9.2"
   }
