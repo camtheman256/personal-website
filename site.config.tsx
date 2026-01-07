@@ -41,6 +41,10 @@ const siteConfig = {
         'distracted by transit',
         'looking at trams through the window',
         'collecting transit farecards',
+        'waiting for CI to complete',
+        'writing golang',
+        'riding elevators in the new york times building',
+        'using british english spellings'
     ]
 }
 
