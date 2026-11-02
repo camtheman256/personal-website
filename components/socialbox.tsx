@@ -18,10 +18,6 @@ export default function SocialBox() {
       icon: <FaLinkedinIn />,
       href: "https://www.linkedin.com/in/cameron-kleiman",
     },
-    {
-      icon: <FaGraduationCap />,
-      href: "https://www.mit.edu/~ckleiman",
-    },
   ];
 
   return (
